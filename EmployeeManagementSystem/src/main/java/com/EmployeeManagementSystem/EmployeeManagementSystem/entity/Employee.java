@@ -1,7 +1,10 @@
 package com.EmployeeManagementSystem.EmployeeManagementSystem.entity;
 
+import com.EmployeeManagementSystem.EmployeeManagementSystem.CustomAnnotations.CustomS;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 @Table(name="Employee_Details")
