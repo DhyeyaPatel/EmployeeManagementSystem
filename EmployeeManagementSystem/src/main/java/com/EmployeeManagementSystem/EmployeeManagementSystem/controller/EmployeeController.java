@@ -131,7 +131,7 @@ public class EmployeeController implements ErrorController {
      * @return
      */
     @RequestMapping(method = RequestMethod.PUT, value = "/updatePatchLoc/{location}")
-    public ResponseEntity<?> updateEmployeeLocDetails(@RequestParam (value ="id") long empId, @PathVariable(value = ="loc")String location){
+    public ResponseEntity<?> updateEmployeeLocDetails(@RequestParam (value ="id") long empId, @PathVariable(value ="loc")String location){
         return new ResponseEntity<>(employeeService.updateParticularLocation(empId,location),HttpStatus.OK);
     }
 
