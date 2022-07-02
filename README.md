@@ -14,7 +14,7 @@
 |Update Location|/updatePatchLoc/{location}|
 
 ### Logging
-[![Logging](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(7).png)]
+![Logging](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(7).png)
 
 ### Custom Exceptional Handling
-[![Custom Exceptional Handling](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(8).png)]
+![Custom Exceptional Handling](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(8).png)
