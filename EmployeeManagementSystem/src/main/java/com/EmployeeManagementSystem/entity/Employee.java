@@ -1,6 +1,6 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.entity;
+package com.EmployeeManagementSystem.entity;
 
-import com.EmployeeManagementSystem.EmployeeManagementSystem.CustomAnnotations.CustomS;
+import com.EmployeeManagementSystem.CustomAnnotations.CustomS;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -34,7 +34,10 @@ public class Employee implements Serializable {
     }
 
     // Constructor
-    public Employee(long empId, String empName, String location, Date date) {
+
+
+    public Employee(long key, long empId, String empName, String location, Date date) {
+        this.key = key;
         this.empId = empId;
         this.empName = empName;
         this.location = location;

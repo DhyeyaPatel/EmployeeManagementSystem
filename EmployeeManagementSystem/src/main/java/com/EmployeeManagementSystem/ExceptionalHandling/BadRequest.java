@@ -1,8 +1,8 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.ExceptionalHandling;
+package com.EmployeeManagementSystem.ExceptionalHandling;
 
 import org.springframework.http.HttpStatus;
 
-public class ResourceNotFoundException extends RuntimeException{
+public class BadRequest extends RuntimeException{
 
     private static final long serialVersionUID = 7428051251365675318L;
 
@@ -12,7 +12,7 @@ public class ResourceNotFoundException extends RuntimeException{
         return httpStatus;
     }
 
-    public ResourceNotFoundException(HttpStatus httpStatus, String message){
+    public BadRequest(HttpStatus httpStatus, String message){
         super(message);
         this.httpStatus=httpStatus;
     }

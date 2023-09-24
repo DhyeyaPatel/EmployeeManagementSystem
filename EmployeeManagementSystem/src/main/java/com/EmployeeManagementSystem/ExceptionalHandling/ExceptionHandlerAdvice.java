@@ -1,4 +1,4 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.ExceptionalHandling;
+package com.EmployeeManagementSystem.ExceptionalHandling;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

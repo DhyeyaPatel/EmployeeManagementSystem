@@ -1,6 +1,6 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.service;
+package com.EmployeeManagementSystem.service;
 
-import com.EmployeeManagementSystem.EmployeeManagementSystem.entity.Employee;
+import com.EmployeeManagementSystem.entity.Employee;
 
 public class ValidateEmployee {
 

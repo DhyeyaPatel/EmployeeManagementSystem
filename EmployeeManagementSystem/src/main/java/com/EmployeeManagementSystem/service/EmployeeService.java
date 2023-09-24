@@ -1,9 +1,9 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.service;
+package com.EmployeeManagementSystem.service;
 
-import com.EmployeeManagementSystem.EmployeeManagementSystem.ExceptionalHandling.BadRequest;
-import com.EmployeeManagementSystem.EmployeeManagementSystem.ExceptionalHandling.ResourceNotFoundException;
-import com.EmployeeManagementSystem.EmployeeManagementSystem.entity.Employee;
-import com.EmployeeManagementSystem.EmployeeManagementSystem.repository.EmployeeRepository;
+import com.EmployeeManagementSystem.ExceptionalHandling.BadRequest;
+import com.EmployeeManagementSystem.ExceptionalHandling.ResourceNotFoundException;
+import com.EmployeeManagementSystem.entity.Employee;
+import com.EmployeeManagementSystem.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

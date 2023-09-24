@@ -1,4 +1,4 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.ExceptionalHandling;
+package com.EmployeeManagementSystem.ExceptionalHandling;
 
 public class ErrorMessage {
 

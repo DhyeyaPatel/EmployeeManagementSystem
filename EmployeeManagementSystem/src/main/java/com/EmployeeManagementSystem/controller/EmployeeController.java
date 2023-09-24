@@ -1,9 +1,8 @@
-package com.EmployeeManagementSystem.EmployeeManagementSystem.controller;
+package com.EmployeeManagementSystem.controller;
 
 
-import com.EmployeeManagementSystem.EmployeeManagementSystem.entity.Employee;
-import com.EmployeeManagementSystem.EmployeeManagementSystem.service.EmployeeService;
-import org.slf4j.LoggerFactory;
+import com.EmployeeManagementSystem.entity.Employee;
+import com.EmployeeManagementSystem.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/empDetails")
