@@ -1,20 +1,25 @@
 # Employee_Details
 
 
-|Methods|End Points|
+|Functionalities|End Points|
 |:--:|:--:|
-|Get_ALL|/all|
-|Get_ByID|/byId|
-|Get_ByName|/byName|
-|Get_ByLocation|/byLoc|
-|Add_Details|/addDetails|
-|Delete Details|/deleteDetails|
-|Update Details|/updateDetails|
-|Update Name|/updatePatchName/{id}/{name}|
-|Update Location|/updatePatchLoc/{location}|
+|Get Employee Details in company|/all|
+|Get Employee Details by ID|/byId|
+|Get Employee Name|/byName|
+|Get Employee Location|/byLoc|
+|Add Employee Details|/addDetails|
+|Delete Employee Details|/deleteDetails|
+|Update Employee Details|/updateDetails|
+|Update Employee Name|/updatePatchName/{id}/{name}|
+|Update Employee Location|/updatePatchLoc/{location}|
 
 ### Logging
 ![Logging](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(7).png)
 
+#### Logging Feature -> All the logs that will be printed when the service will be up will be stored in a text file as per Particular Name followed by timestamp. 
+
 ### Custom Exceptional Handling
 ![Custom Exceptional Handling](https://github.com/DhyeyaPatel/Employee_Details/blob/main/EmployeeManagementSystem/images/Screenshot%20(8).png)
+
+#### Exceptional Handling Feature -> Majorly exceptions are customly handled along with a custom handling and also there is one custom annotation used in the microservice.
+
